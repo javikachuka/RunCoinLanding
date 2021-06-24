@@ -21,6 +21,10 @@ const Navbar = () => {
 
   const handleClick = () => setClick(!click);
 
+  const handleClickPlay = () => {
+    window.open("https://app.runcoin.page/", '_blank');
+  }
+
   return (
     <Nav className="shadow-sm">
       <NavBarContainer>
@@ -68,7 +72,7 @@ const Navbar = () => {
             </NavLink>
           </NavItem>
           <PlayItem>
-            <PlayLink href="/game">Start</PlayLink>
+            <PlayLink href="#" onClick={handleClickPlay}>Start</PlayLink>
           </PlayItem>
         </NavMenu>
       </NavBarContainer>
