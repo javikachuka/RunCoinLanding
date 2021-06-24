@@ -75,6 +75,9 @@ const Navbar = () => {
               Team
             </NavLink>
           </NavItem> */}
+          <PlayItem>
+            <PlayLink href="#" onClick={handleClickPlay}>Start</PlayLink>
+          </PlayItem>
           <NavItem>
             <NavLink
               to="team"
@@ -87,9 +90,7 @@ const Navbar = () => {
               <TwitterIcon></TwitterIcon>
             </NavLink>
           </NavItem>
-          <PlayItem>
-            <PlayLink href="#" onClick={handleClickPlay}>Start</PlayLink>
-          </PlayItem>
+          
         </NavMenu>
       </NavBarContainer>
     </Nav>
