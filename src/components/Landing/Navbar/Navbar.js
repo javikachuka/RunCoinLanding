@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logoImg from "../../../images/runcoin-logo-img.svg";
 import { animateScroll as scroll } from "react-scroll";
-
+import TwitterIcon from '@material-ui/icons/Twitter';
 import {
   Nav,
   NavBarContainer,
@@ -23,6 +23,10 @@ const Navbar = () => {
 
   const handleClickPlay = () => {
     window.open("https://app.runcoin.page/", '_blank');
+  }
+
+  const handleClickTwitter = () => {
+    window.open("https://twitter.com/RUN_FINANCE", '_blank');
   }
 
   return (
@@ -71,6 +75,18 @@ const Navbar = () => {
               Team
             </NavLink>
           </NavItem> */}
+          <NavItem>
+            <NavLink
+              to="team"
+              smooth={true}
+              duration={1000}
+              onClick={handleClickTwitter}
+              exact="true"
+              offset={-60}
+            >
+              <TwitterIcon></TwitterIcon>
+            </NavLink>
+          </NavItem>
           <PlayItem>
             <PlayLink href="#" onClick={handleClickPlay}>Start</PlayLink>
           </PlayItem>
