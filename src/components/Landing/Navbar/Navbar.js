@@ -47,7 +47,7 @@ const Navbar = () => {
               How it Works
             </NavLink>
           </NavItem>
-          <NavItem>
+          {/* <NavItem>
             <NavLink
               to="features"
               smooth={true}
@@ -58,8 +58,8 @@ const Navbar = () => {
             >
               Features
             </NavLink>
-          </NavItem>
-          <NavItem>
+          </NavItem> */}
+          {/* <NavItem>
             <NavLink
               to="team"
               smooth={true}
@@ -70,7 +70,7 @@ const Navbar = () => {
             >
               Team
             </NavLink>
-          </NavItem>
+          </NavItem> */}
           <PlayItem>
             <PlayLink href="#" onClick={handleClickPlay}>Start</PlayLink>
           </PlayItem>
