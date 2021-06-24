@@ -27,8 +27,9 @@ function Work() {
                   <span className="text-blue"> Works!</span>
                 </Heading>
                 <TopLine>
-                  The game is simple, try to be the last person to bid for the
-                  prize before the countdown ends.
+                  It's a competition that the participant can play for a Global  POOL, 
+                  this POOL value accumulates of the previous participants. The system doesn't use random numbers generation,
+                  simply the win probability will depend on time and the Cryptocurrency value.
                 </TopLine>
               </TextWrapper>
             </WorkColumn>

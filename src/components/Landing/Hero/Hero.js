@@ -23,11 +23,12 @@ function Hero() {
             <HeroColumn>
               <TextWrapper>
                 <Heading>
-                  Run coin is a{" "}
+                  Run Coin is a{" "}
                   <span className="text-blue">Descentralized Game</span>
                 </Heading>
                 <TopLine>
-                  A ver si nos ponemos a laburar un poco xd laconcha de la lroa
+                  The game is simple, try to be the last person to bid for the
+                  prize before the countdown ends.
                 </TopLine>
               </TextWrapper>
             </HeroColumn>
